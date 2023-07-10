@@ -1,4 +1,3 @@
-defaultNamespace: vote
 targetCustomizations:
   - name: frontier-aqua
     clusterSelector:
