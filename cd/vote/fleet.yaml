@@ -1,0 +1,9 @@
+defaultNamespace: vote
+targetCustomizations:
+  - name: frontier-aqua
+    clusterSelector:
+      matchLabels:
+        bones.io/type: control-plane
+    yaml:
+      overlays:
+        - deploy
